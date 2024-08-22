@@ -94,6 +94,16 @@ Your content goes here.
 {% /callout %}
 ```
 
+#### Deep Dives
+
+These are special callouts that are collapsed with the intention of containing more deep-dive information about the topic which isn't required to understand right away.
+
+```markdown
+{% callout type="deepdive" title="string" %}
+Your deep-dive content goes here.
+{% /callout %}
+```
+
 #### Disclosure
 
 A disclosure can be used for less important information that is initially collapsed.
